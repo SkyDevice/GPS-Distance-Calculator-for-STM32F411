@@ -1,0 +1,23 @@
+--cpu Cortex-M4.fp
+".\executable\main.o"
+".\executable\startup_stm32f411xe.o"
+".\executable\system_stm32f4xx.o"
+".\executable\stm32f4xx_syscfg.o"
+".\executable\stm32f4xx_usart.o"
+".\executable\stm32f4xx_gpio.o"
+".\executable\stm32f4xx_nvic.o"
+".\executable\stm32f4xx_exti.o"
+".\executable\stm32f4xx_rcc.o"
+".\executable\stm32f4xx_spi.o"
+".\executable\stm32f4xx_it.o"
+".\executable\stm32f411_mcudevice.o"
+".\executable\stm32f411_mcuredirect.o"
+".\executable\stm32f411_dspdevice.o"
+".\executable\stm32f411_dspinterface.o"
+".\executable\stm32f411_stdfunctions.o"
+".\executable\stm32f411_gpsdevice.o"
+".\executable\stm32f411_gpscoordinates.o"
+--library_type=microlib --strict --scatter ".\Executable\Nucleo STM32F411RE.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Executable\Nucleo STM32F411RE.map" -o ".\Executable\Nucleo STM32F411RE.axf"
