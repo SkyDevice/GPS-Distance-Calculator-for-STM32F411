@@ -22,7 +22,7 @@ Subdivides the executable instructions to the particular peripheral units and st
 **Putty:** Release 0.64  
 
 ##**Hardware components**  
-**Microcontroller:** STM32F411 RE  
+**Microcontroller:** STM32F411RE  
 **GPS-Module:** All GPS Modules which outputs location information as NMEA  
 **Connection GPS-Module - STM32:** 4 jumper cable female-female  
 **Connection GPS-Module - computer:** Mini-USB to USB cable  
